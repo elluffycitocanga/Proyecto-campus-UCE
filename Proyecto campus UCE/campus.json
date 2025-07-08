@@ -1,0 +1,270 @@
+{
+	"nodes": [
+		{
+			"id": 1,
+			"label": "Facultad de Jurisprudencia",
+			"info": "Aulas: 28. Edificio: 2 bloques (1 de 2 pisos, 2 de 3 pisos). Tiempo desde metro: 5 min, entrada principal: 12 min.",
+			"carreras": [
+				"Derecho"
+			]
+		},
+		{
+			"id": 2,
+			"label": "Facultad de Ciencias Psicológicas",
+			"info": "Edificios: Matriz (3 pisos, 16 aulas), Capsi (2 pisos, 2 aulas). Tiempos entrada: metro 15 min, principal 12 min.",
+			"carreras": [
+				"Psicología Clínica",
+				"Psicología Organizacional"
+			]
+		},
+		{
+			"id": 3,
+			"label": "Facultad de Arquitectura",
+			"info": "20 aulas. Hall principal y secundario. Servicios: salas de exposición, aula audiovisual.",
+			"carreras": [
+				"Arquitectura",
+				"Diseño Urbano"
+			]
+		},
+		{
+			"id": 4,
+			"label": "Facultad de Ciencias Agrícolas",
+			"info": "5 pisos. Laboratorios: nutrición animal, biotecnología vegetal. Invernadero para botánica.",
+			"carreras": [
+				"Agronomía",
+				"Biotecnología Agrícola"
+			]
+		},
+		{
+			"id": 5,
+			"label": "Facultad de Ciencias Químicas",
+			"info": "3 edificios. Laboratorios: química analítica, farmacología, microbiología.",
+			"carreras": [
+				"Química",
+				"Bioquímica",
+				"Farmacia"
+			]
+		},
+		{
+			"id": 6,
+			"label": "Facultad de Ingeniería en Geología, Minas, Petróleos y Ambiental (FIGEMPA)",
+			"info": "Edificio principal con laboratorios. Carreras de geociencias.",
+			"carreras": [
+				"Geología",
+				"Ingeniería de Minas",
+				"Ingeniería Ambiental"
+			]
+		},
+		{
+			"id": 7,
+			"label": "Facultad de Ingeniería y Ciencias Aplicadas",
+			"info": "Edificios: Resistencia de Materiales, Suelos, Aulas, Hidráulica.",
+			"carreras": [
+				"Ingeniería Civil",
+				"Ingeniería Informática"
+			]
+		},
+		{
+			"id": 8,
+			"label": "Facultad de Odontología",
+			"info": "Edificios M-1 y M-3 con clínicas especializadas.",
+			"carreras": [
+				"Odontología"
+			]
+		},
+		{
+			"id": 9,
+			"label": "Facultad de Ciencias Sociales y Humanas",
+			"info": "4 edificios con aulas y laboratorios.",
+			"carreras": [
+				"Trabajo Social",
+				"Sociología",
+				"Historia"
+			]
+		},
+		{
+			"id": 10,
+			"label": "Facultad de Artes",
+			"info": "Talleres de artes plásticas, salas de ensayo, teatro universitario.",
+			"carreras": [
+				"Artes Plásticas",
+				"Música",
+				"Danza",
+				"Teatro"
+			]
+		},
+		{
+			"id": 11,
+			"label": "Facultad de Ciencias",
+			"info": "Edificio de Ciencias Básicas con laboratorios.",
+			"carreras": [
+				"Matemática",
+				"Física",
+				"Ciencias de Datos"
+			]
+		},
+		{
+			"id": 12,
+			"label": "Facultad de Medicina Veterinaria",
+			"info": "Hospital Veterinario y Granja Experimental.",
+			"carreras": [
+				"Medicina Veterinaria",
+				"Zootecnia"
+			]
+		},
+		{
+			"id": 13,
+			"label": "Facultad de Filosofía",
+			"info": "6 pisos con distribución por carreras.",
+			"carreras": [
+				"Filosofía",
+				"Pedagogía"
+			]
+		},
+		{
+			"id": 14,
+			"label": "Facultad de Ingeniería Química",
+			"info": "12 laboratorios especializados y planta piloto.",
+			"carreras": [
+				"Ingeniería Química",
+				"Ingeniería en Alimentos"
+			]
+		},
+		{
+			"id": 15,
+			"label": "Facultad de Economía",
+			"info": "Laboratorio de simulación económica.",
+			"carreras": [
+				"Economía",
+				"Finanzas",
+				"Comercio Exterior"
+			]
+		},
+		{
+			"id": 16,
+			"label": "Facultad de Comunicación Social",
+			"info": "Estudios de Radio y TV, salas de redacción.",
+			"carreras": [
+				"Comunicación Social",
+				"Periodismo",
+				"Publicidad"
+			]
+		},
+		{
+			"id": 17,
+			"label": "Facultad de Cultura Física",
+			"info": "Complejo Deportivo con piscina y canchas.",
+			"carreras": [
+				"Cultura Física",
+				"Entrenamiento Deportivo"
+			]
+		}
+	],
+	"edges": [
+		{
+			"from": 1,
+			"to": 2,
+			"label": "Ruta peatonal norte",
+			"weight": 150,
+			"time": "3 min"
+		},
+		{
+			"from": 2,
+			"to": 3,
+			"label": "Pasillo cubierto",
+			"weight": 200,
+			"time": "5 min"
+		},
+		{
+			"from": 3,
+			"to": 5,
+			"label": "Avenida central",
+			"weight": 180,
+			"time": "4 min"
+		},
+		{
+			"from": 4,
+			"to": 6,
+			"label": "Camino sur",
+			"weight": 250,
+			"time": "6 min"
+		},
+		{
+			"from": 5,
+			"to": 7,
+			"label": "Corredor de ingenierías",
+			"weight": 120,
+			"time": "2 min"
+		},
+		{
+			"from": 6,
+			"to": 12,
+			"label": "Ruta a veterinaria",
+			"weight": 300,
+			"time": "7 min"
+		},
+		{
+			"from": 7,
+			"to": 14,
+			"label": "Puente este",
+			"weight": 170,
+			"time": "3 min"
+		},
+		{
+			"from": 8,
+			"to": 9,
+			"label": "Pasillo humanidades",
+			"weight": 210,
+			"time": "5 min"
+		},
+		{
+			"from": 9,
+			"to": 10,
+			"label": "Acceso a artes",
+			"weight": 190,
+			"time": "4 min"
+		},
+		{
+			"from": 10,
+			"to": 16,
+			"label": "Calle cultural",
+			"weight": 220,
+			"time": "5 min"
+		},
+		{
+			"from": 11,
+			"to": 13,
+			"label": "Conector ciencias-filosofía",
+			"weight": 160,
+			"time": "3 min"
+		},
+		{
+			"from": 12,
+			"to": 17,
+			"label": "Ruta deportiva",
+			"weight": 280,
+			"time": "6 min"
+		},
+		{
+			"from": 13,
+			"to": 15,
+			"label": "Pasillo económico",
+			"weight": 140,
+			"time": "2 min"
+		},
+		{
+			"from": 14,
+			"to": 15,
+			"label": "Corredor científico",
+			"weight": 130,
+			"time": "2 min"
+		},
+		{
+			"from": 16,
+			"to": 17,
+			"label": "Vía a complejo deportivo",
+			"weight": 240,
+			"time": "5 min"
+		}
+	]
+}
