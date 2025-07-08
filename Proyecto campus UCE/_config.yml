@@ -1,1 +1,13 @@
 touch _config.yml
+title: "Campus Uce"
+description: "Bienvenido al campus Universidad Central del Ecuador"
+theme: minima
+include:
+  - .htaccess
+  - index.html
+
+  markdown: kramdown
+
+  plugins:
+    - jekyll-feed
+    - jekyll-seo-tag
